@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>LuxaryHotel</title>
+	<title>RexHotel</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -65,7 +65,7 @@
 					<li class="list-container list-item"><a href="#" class="anchor">Rooms <i
 						class="fas fa-caret-down icon-rotate"></i></a>
 						
-						<div class="sub-menu d-none">
+						<div class="sub-menu">
 							<ul>
 								<li><a href="rooms.html">King Bedroom </a></li>
 								<li><a href="rooms.html">Queen & Double Bedroom</a></li>
@@ -112,7 +112,7 @@
 		<!-- Nav area end -->
 
 		<h2> Away from the hustle and bustle of city life</h2>
-		</div>
+		
 	</header>
 
 
@@ -374,7 +374,11 @@
 	<!-- Custom JS -->
 
 	<script>
+
+		// --------aos-------
 		AOS.init();
+
+		// -----------mobile menu---------
 $(document).ready(function(){
 	$('.menu-bar').click(function(){
 		$('.main-nav').toggleClass('menu-active');
@@ -384,12 +388,7 @@ $(document).ready(function(){
 	$('.main-nav').removeClass('menu-active');
 
 	})
-
-	$('.list-container').click(function(){
-	$('.sub-menu').toggleClass('d-block');
 	
-	})
-
 })
 		
 		
