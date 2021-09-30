@@ -315,6 +315,11 @@
     margin-top: 18%;
     margin-left: 2%;
   }
+	
+	section .container .box p{
+	line-height:1.2;
+	margin:0 0 9px;	
+	}
 
   .pricing > p {
     width: 90%;
