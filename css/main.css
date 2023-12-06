@@ -301,10 +301,7 @@ nav ul li ul li > a {
   font-size: 14px;
   line-height: 1.2;
 }
-/* nav ul ul li >.sub-menu1{
-	display: block;
-	position: static;
-} */
+
 nav ul li ul li:last-child {
   border-bottom: none;
 }
